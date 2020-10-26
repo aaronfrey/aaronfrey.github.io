@@ -2,11 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
+
     {% include navigation.html %}
-    {{ content }}
+
+    <div class="wrap container" role="document">
+      <div class="content row">
+        <main class="main">
+          {{ content }}
+        </main>
+      </div>
+    </div>
+
+    {% include footer.html %}
+    
   </body>
 </html>
