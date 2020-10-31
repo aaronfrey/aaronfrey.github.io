@@ -1,8 +1,6 @@
 title: "Aaron Frey Personal Site"
 sass:
-  load_paths:
-    - _sass
-    - node_modules
+  sass_dir: assets/css
 defaults:
   - scope:
       path: ""
@@ -13,5 +11,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-include: [".htaccess", "node_modules"]
-exclude: ["Gemfile", "Gemfile.lock", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
