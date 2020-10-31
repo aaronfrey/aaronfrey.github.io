@@ -1,0 +1,90 @@
+.btn {
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  font-weight: 300;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  height: 54px;
+  width: 100%;
+  padding: 6px 25px;
+  font-size: 22px;
+  border-radius: 27px;
+}
+
+/* Extra Small Devices, Phones */
+
+// Plugins Page
+.plugins-container {
+  a {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .gallery {
+    display: inline-block;
+    margin: 15px 0 25px;
+  }
+}
+
+// Resume Page
+.resume-container {
+  h1,
+  h3,
+  a {
+    color: $brand-primary;
+  }
+  p {
+    font-size: 14px;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  hr {
+    border-top: 1px solid $brand-primary;
+  }
+  .information {
+    text-align: center;
+    .visible-xs {
+      display: inline-block !important;
+    }
+  }
+  .info-section {
+    margin-bottom: 20px;
+  }
+}
+
+/* Small Devices (tablets, 768px and up) */
+
+@media only screen and (min-width: $screen-sm-min) {
+  .resume-container {
+    .information {
+      .visible-xs {
+        display: none !important;
+      }
+      ul {
+        display: inline-block;
+        margin-bottom: 0;
+        li {
+          float: left;
+          border-right: 1px solid $brand-primary;
+          padding-right: 10px;
+          margin-right: 10px;
+          &:last-of-type {
+            border-right: none;
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Medium Devices (desktops, 992px and up) */
+
+@media only screen and (min-width: $screen-md-min) {}

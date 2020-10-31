@@ -1,0 +1,43 @@
+/* Extra Small Devices, Phones */
+
+.content-info {
+  background-color: $brand-primary;
+  margin-top: 30px;
+  padding: 15px 0;
+  ul {
+    margin: 0;
+    li {
+      float: left;
+      width: 50%;
+      padding: 3px 0;
+      a {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 24px;
+        color: #ffffff;
+        svg {
+          font-size: 24px;
+          margin-right: 10px;
+          position: relative;
+          top: 1px;
+        }
+      }
+    }
+  }
+}
+
+/* Small Devices (tablets, 768px and up) */
+
+@media only screen and (min-width: $screen-sm-min) {
+  .content-info {
+    ul {
+      li {
+        width: 33.333333%;
+      }
+    }
+  }
+}
+
+/* Medium Devices (desktops, 992px and up) */
+
+@media only screen and (min-width: $screen-md-min) {}

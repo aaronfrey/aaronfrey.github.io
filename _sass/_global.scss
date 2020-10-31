@@ -1,0 +1,48 @@
+body,
+html {
+  height: 100%;
+  font-weight: 300;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+	margin-top: 20px;
+  flex: 1 0 auto;
+}
+
+.container {
+  max-width: 650px;
+}
+
+.page-header {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+  color: $brand-primary;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  letter-spacing: 1px;
+}
+
+a {
+	font-weight: 500;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: gray;
+  margin-top: 10px;
+  font-weight: 300;
+}
