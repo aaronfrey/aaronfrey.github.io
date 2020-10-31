@@ -1,6 +1,4 @@
 title: "Aaron Frey Personal Site"
-sass:
-  sass_dir: assets/css
 defaults:
   - scope:
       path: ""
