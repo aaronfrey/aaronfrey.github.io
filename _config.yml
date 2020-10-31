@@ -1,5 +1,8 @@
 title: "Aaron Frey Personal Site"
-
+sass:
+  load_paths:
+    - _sass
+    - node_modules
 defaults:
   - scope:
       path: ""
