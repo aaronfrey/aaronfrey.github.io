@@ -8,8 +8,8 @@ $avatar-width: 200px;
   .brand {
     display: inline-block;
     img {
-      border: 2px solid $brand-primary;
-      max-width: $avatar-width;
+      border: 2px solid theme-color("primary");
+      width: $avatar-width;
     }
   }
   .brand-text h2 a {
